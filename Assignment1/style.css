@@ -1,0 +1,51 @@
+*{
+margin:0 ;
+padding:0;
+box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(to right,indigo ,rgb(74, 3, 74));
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding:10px 20px;
+  }
+  
+  li {
+    display: inline;
+  }
+  li a {
+    padding:20px;
+    text-decoration: none;
+    color: black;
+  }
+  .container{
+ display: flex;
+ flex-direction: column;
+ text-align: center;
+ justify-content:space-evenly;
+ align-items: center;
+ margin-top: 200px;
+ color: white;
+}
+.name{
+margin-bottom: 20px;
+font-size:2rem ;
+}
+.ID{
+font-size:1.5rem ;
+margin-bottom: 20px;
+}
+.buttn{
+background-color:indigo;
+padding: 10px 20px;
+margin: 20px;
+color:white ;
+border:1px solid burlywood ;
+border-radius:5px;
+}
+.buttn a{
+color:white;
+
+}

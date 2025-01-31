@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>media</title>
+
+    <style>
+
+    .container{
+    box-sizing: border-box;
+    }
+    
+    </style>
+</head>
+<body>
+ <div class="container">
+<h1>PICTURE ELEMENT</h1>
+<picture>
+<source src="./assets/images/lola 1.jpg" width="500px"  media="(min-width: 900px)" />
+<source src="./assets/images/lola 2.jpg"  width="500px" media="(min-width: 500px)" />
+<img src="./assets/images/lola.jpg" alt="lola" style="width:500px;" >
+</picture>
+       
+<div class="audio-cont">
+<h1>Audio element</h1>
+<audio controls>
+<source src="./assets/20250131_174246.aac" type="audio/ogg">
+<source src="./assets/20250131_174246.aac" type="audio/wav">
+<source src="./assets/20250131_174246.aac" type="audio/mpeg">
+</audio>
+</div>
+
+<div class="iframe">
+<h1>Iframes</h1>
+<iframe src="index.html" name="iframe" height="300px" width="100%"></iframe>
+<p><a href="https://www.google.com" target="iframe_a">Google.com</a></p></div>
+
+<div class="video-cont">
+<h1>Video elements</h1>
+<video controls autoplay loop muted preload="auto" crossorigin="anonymous">
+<source src="./assets/WhatsApp Video 2025-01-31 at 20.17.16_c77e3f74.mp4" width="100%">
+</video>
+</div>
+
+ </div>
+    
+</body>
+</html> 
